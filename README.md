@@ -129,7 +129,8 @@ HTML attributes are properties that are  used to define the characteristics and 
 
 For example, commonly used attributes include "class", "id", "src", "href", "for" etc, and events like "onclick".
 
-```<div class="my-class">Hellow world </div>
+```
+<div class="my-class">Hellow world </div>
 ```
 But in react we use 'classnName' attribute instead of class.
 
