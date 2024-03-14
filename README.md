@@ -8,50 +8,6 @@ React is a front-end Javascript library. It is an open-source component-based li
 * The syntax of react is much like HTML which allow developers to create templates with detailed documentation.
 * We can migrate one version to another.
 
-# Setup for React Project
-
-## Install node.js 
-```
-https://nodejs.org/en
-```
-## Check if the node is successfully install or not using the below command
-```
-node -v
-npm -v
-```
-* Go to visual Sudio code and create a folder xyz.
-* open terminal and run the below mentoned command.
-```
-npm create vite@latest
-```
-* Mention project name ex - first_project.
-
-## select the framework
-* react
-* Javascript
-
-``` 
-cd first_project
-npm install
-npm run dev
-```
-## Integrate tailwindcss with react project 
-```
-npm install -D tailwindcss
-npx tailwindcss init
-```
-* Go to the tailwind.config.js file and the below-mentioned to the module.exports.
-
-```
-content: ["./src/**/*.]
-```
-
-* index.css is the main CSS file of the project, add the mentioned below
-```
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
 
 ## What is Create React app 
 
@@ -201,4 +157,50 @@ root.render(<App />);
   - Then, you call `root.render()` with the component you want to render (in this case, `<App />`).
 
 Using Concurrent Mode and `createRoot()` is the recommended approach for rendering React components in newer applications, especially when dealing with large or complex UIs, as it can provide better performance and user experience.
+
+# Setup for React Project
+
+## Install node.js 
+```
+https://nodejs.org/en
+```
+## Check if the node is successfully install or not using the below command
+```
+node -v
+npm -v
+```
+* Go to visual Sudio code and create a folder xyz.
+* open terminal and run the below mentoned command.
+```
+npm create vite@latest
+```
+* Mention project name ex - first_project.
+
+## select the framework
+* react
+* Javascript
+
+``` 
+cd first_project
+npm install
+npm run dev
+```
+## Integrate tailwindcss with react project 
+```
+npm install -D tailwindcss
+npx tailwindcss init
+```
+* Go to the tailwind.config.js file and the below-mentioned to the module.exports.
+
+```
+content: ["./src/**/*.]
+```
+
+* index.css is the main CSS file of the project, add the mentioned below
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
 
