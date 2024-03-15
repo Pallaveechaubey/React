@@ -6,15 +6,6 @@
 [What is Create React app](#What-is-Create-React-app)	  
 [JSX](#JSX)	    	    
 [Setup for React Project](#Setup-for-React-Project)	    
-[Blockquote](#blockquote)	    	  
-[Cascading Style sheet](#cascading-style-sheet)	      
-[CSS Order of Priority](#css-order-of-priority)	  
-[Selectors in CSS](#selectors-in-css)	  
-[Introduction to Google Fonts](#introduction-to-google-fonts)	  
-[What is Box Model](#what-is-box-model)	  
-[Flex](#flex)	  
-[Grid](#grid)	  	  
-[Reference](#reference)	 
 
 
 # React
