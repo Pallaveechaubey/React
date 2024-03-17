@@ -1,7 +1,7 @@
 # react-document
 
 ## Table of Content  
-[What is React?](#What-is-React?)  
+[What is React?](#What-is-React)  
 [ Advantage of React](#Advantage-of-React)	   
 [What is Create React app](#What-is-Create-React-app)	  
 [JSX](#JSX)	    	    
