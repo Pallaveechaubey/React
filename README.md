@@ -109,8 +109,9 @@ In this example the components receive props called isloggedin and use the terna
 
 It is worth noting that the ternary operator is more concise than an if/else statement but it can be less readable when the conditions are complex in that case is recommended to use if/else statement.
 
-## What are HTML attributes 
-HTML attributes are properties that are  used to define the characteristics and behavior of HTML elements. they are added to the opening tag of HTML element and come in the form of name-value pairs, with the name being the attribute and the value being what it set to
+## What are HTML attributesa?
+
+HTML attributes are properties that are used to define the characteristics and behavior of HTML elements. they are added to the opening tag of HTML element and come in the form of name-value pairs, with the name being the attribute and the value being what it set to
 
 For example, commonly used attributes include "class", "id", "src", "href", "for" etc, and events like "onclick".
 
