@@ -13,7 +13,7 @@
 
 [JSX](#JSX)
 
-[Why JSX](#why-jsx)
+[Why JSX?](#why-jsx)
 
 [Setup for React Project](#Setup-for-React-Project)	    
 
@@ -79,7 +79,7 @@ const name = React.createElement("hi", null,"hello bachoo");
 ## Browser can't react Jsx 
 JSX is a combination of HTML and JavaScript. so, it is not supported by the browser. so a transpiler called babel converts the JSX into pure javascript. Then browser understands the code and executes it. Browsers can't read JSX because there is no inherent implementation for the browser engines to react to and understand them.
 
-## Why Jsx 
+## Why JSX? 
 With the help of JSX, we can write HTML code with javascript. React does not employ the createElement() method; Instead, JSX elements are used to create HTML elements. As a result, JSX facilitates the writing and addition of HTML components in React. A transpiler called babel.js will convert Jsx to javascript on the browser.
 
 ### Advantages of Jsx 
