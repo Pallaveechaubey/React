@@ -26,15 +26,17 @@ React is a front-end Javascript library. It is an open-source component-based li
 * The syntax of react is much like HTML which allow developers to create templates with detailed documentation.
 * We can migrate one version to another.
 
-# What is tailwindcss?
+## What is tailwindcss?
 
 Tailwind CSS is like a toolbox for styling websites or apps. Instead of giving you pre-made styles for things like buttons or headers, it gives you lots of small tools (called utility classes) that you can use to style elements directly in your HTML code.
 
 For example, instead of having a class for a big blue button, you might use utility classes to make a button big, blue, and rounded.
 
-# Why we are integrating tailwindcss with react project?
+## Why we are integrating tailwindcss with react project?
 
+When you use a CSS framework like Bootstrap, it gives you a bunch of ready-made styles that you can apply to things like buttons or tables just by adding certain classes to your HTML code.
 
+But with Tailwind CSS, it's a bit different. Instead of giving you pre-made styles, Tailwind CSS gives you small building blocks called utility classes. These classes let you control things like margins, padding, colors, and more directly in your HTML code.
 
 ## What is Create React app 
 
