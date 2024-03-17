@@ -1,14 +1,15 @@
 # react-document
 
 ## Table of Content  
-[React](#React)  
+[What is React?](#What-is-React?)  
 [ Advantage of React](#Advantage-of-React)	   
 [What is Create React app](#What-is-Create-React-app)	  
 [JSX](#JSX)	    	    
 [Setup for React Project](#Setup-for-React-Project)	    
 
 
-# React
+# What is React?
+
 React is a front-end Javascript library. It is an open-source component-based library that is in charge of developing the application's view layer. Since its initial release in 2013, React has become one of the most popular javascript libraries for UI development. It is easier to reason about and debug, and its capacity to effectively alter the user interface in response to data changes.
 
 # Advantage of React
