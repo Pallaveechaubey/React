@@ -2,7 +2,9 @@
 
 ## Table of Content  
 [What is React?](#What-is-React)  
-[ Advantage of React](#Advantage-of-React)	   
+[ Advantage of React](#Advantage-of-React)	
+[What is tailwindcss?](#what-is-tailwindcss)
+[Why we are integrating tailwindcss with react project?](#Why-we-are-integrating-tailwindcss-with-react-project?)
 [What is Create React app](#What-is-Create-React-app)	  
 [JSX](#JSX)	    	    
 [Setup for React Project](#Setup-for-React-Project)	    
@@ -13,9 +15,19 @@
 React is a front-end Javascript library. It is an open-source component-based library that is in charge of developing the application's view layer. Since its initial release in 2013, React has become one of the most popular javascript libraries for UI development. It is easier to reason about and debug, and its capacity to effectively alter the user interface in response to data changes.
 
 # Advantage of React
+
 * React is easy to learn.
 * The syntax of react is much like HTML which allow developers to create templates with detailed documentation.
 * We can migrate one version to another.
+
+# What is tailwindcss?
+
+Tailwind CSS is like a toolbox for styling websites or apps. Instead of giving you pre-made styles for things like buttons or headers, it gives you lots of small tools (called utility classes) that you can use to style elements directly in your HTML code.
+
+For example, instead of having a class for a big blue button, you might use utility classes to make a button big, blue, and rounded.
+
+# Why we are integrating tailwindcss with react project?
+
 
 
 ## What is Create React app 
