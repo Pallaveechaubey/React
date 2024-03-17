@@ -88,8 +88,6 @@ With the help of JSX, we can write HTML code with javascript. React does not emp
 
 ### Note 
 * JSX must have one parent element.
-### Why JSX
-JSX is converted into a plain javascript object. In JavaScript, you can only return one object from a function. The same applies to JSX - If you want to return multiple Jsx tags, you need to wrap them in a parent tag.
 
 ## Ternary operation inside Jsx elements
 
