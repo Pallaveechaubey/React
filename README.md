@@ -1,4 +1,4 @@
-# react-document
+****# react-document
 
 ## Table of Content  
 [What is React?](#What-is-React)
@@ -47,11 +47,15 @@ But with Tailwind CSS, it's a bit different. Instead of giving you pre-made styl
 * There are 3 folders in the following React boilerplate: node modules, public, and src, Read.md, package.json, gitgnore, and yarn.lock are additional files.
 
 * node_modules: here we get all the necessary node packages of our application.
+* 
 * Public
+* 
 * index.html: only one html file is there in the whole application.
 * manifest.json: It is applied to transform the application into a progressive web app.
 * favicon.ico: It is an icon in the tab.
+* 
 * src
+* 
 * App.css,index.css: These are different css files.
 * index.js: A file which allows to connect all the components with index.html.
 * App.js: A file where we usually import most of the presentational components.
