@@ -117,17 +117,17 @@ For example, commonly used attributes include "class", "id", "src", "href", "for
 ```
 <div class="my-class">Hellow world </div>
 ```
-But in react we use 'classnName' attribute instead of class.
+But in react we use 'className' attribute instead of class.
 
-Let's take another example of on click event in HTML
-in HTML we use "on click in all lower case but in react we use camel case like 'onClick " " Also in HTML, we have to put the function in quotes and invoke it by putting parameters but in React we use curly braces and the fu7nction name without parenthesis.
+Let's take another example of on click event in HTML.
+In HTML we use "on click in all lower case but in react we use camel case like 'onClick " " Also in HTML, we have to put the function in quotes and invoke it by putting parameters but in React we use curly braces and the function name without parenthesis.
 
-* In HTML a "label" is an element that can be used to provide a text description for a form element such as a text field or a checkbox. The "for"  attributes of the label elements are used to associated the label.
+* In HTML a "label" is an element that can be used to provide a text description for a form element such as a text field or a checkbox. The "for" attributes of the label elements are used to associated the label.
 With specific form elements typically by specifying the ID of the form element.
-In recent, a "label" component can be created using javascript and jsx to create and style label elements. These components can be reusable and can be used in different parts of application.
+In react, a "label" component can be created using javascript and jsx to create and style label elements. These components can be reusable and can be used in different parts of application.
 
 ### NOTE--
- we already know there are certain differences between html and jsx and one such difference that we have seen in htmlFor. in normal HTML we have for but we cannot use it in javascript since it is a reserved keyword in javascript so we use htmlFor in jsx.
+We already know there are certain differences between html and jsx and one such difference that we have seen in html. In normal HTML we have for but we cannot use it in javascript since it is a reserved keyword in javascript so we use htmlFor in jsx.
 
  ## Introducing the new root API 
  A root in react refers to the top-level data structure that renders a tree. In React 18, we will have two root APIs: Legacy root API and New root API
