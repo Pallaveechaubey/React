@@ -92,6 +92,7 @@ With the help of JSX, we can write HTML code with javascript. React does not emp
 JSX is converted into a plain javascript object. In JavaScript, you can only return one object from a function. The same applies to JSX - If you want to return multiple Jsx tags, you need to wrap them in a parent tag.
 
 ## Ternary operation inside Jsx elements
+
 The ternary operator can be used with JSX components to conditionally render different elements or components based on certain conditions. The ternary operator is shorthand version of if/else statement and has the following syntax :
 ```
 Condition? true:false
@@ -109,7 +110,7 @@ In this example the components receive props called isloggedin and use the terna
 
 It is worth noting that the ternary operator is more concise than an if/else statement but it can be less readable when the conditions are complex in that case is recommended to use if/else statement.
 
-## What are HTML attributesa?
+## What are HTML attributes?
 
 HTML attributes are properties that are used to define the characteristics and behavior of HTML elements. they are added to the opening tag of HTML element and come in the form of name-value pairs, with the name being the attribute and the value being what it set to
 
@@ -147,11 +148,9 @@ ReactDOM.render(<NavBar/>, document.getElementById('root'))
  The render() method of the react-dom package is considered legacy starting react-dom version 18. ** The method is replaced with createRoot() method that is exported from react-dom/client. ** The createRoot() method taked the root elements as parameters and creates a react root.
 
  ### New Root API
- createRoot() is a new method introduced in React 18 that allows you to create a separate root for a react tree outside of the main react DOM tree. it take a single argument, which is a reference to an existing DOM element. It returns a new root object that has a render() method for rendering react components into the specified DOM element.
+createRoot() is a new method introduced in React 18 that allows you to create a separate root for a react tree outside of the main react DOM tree. it take a single argument, which is a reference to an existing DOM element. It returns a new root object that has a render() method for rendering react components into the specified DOM element.
 
 call createRoot to create a React root for displaying the content inside the browser DOM element.
-
-
 
 ```
 // Import ReactDOM from 'react-dom';
@@ -232,5 +231,3 @@ content: ["./src/**/*.]
 @tailwind components;
 @tailwind utilities;
 ```
-
-
