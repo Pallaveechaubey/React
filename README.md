@@ -13,6 +13,8 @@
 
 [JSX](#JSX)
 
+[Why JSX](#why-jsx)
+
 [Setup for React Project](#Setup-for-React-Project)	    
 
 
