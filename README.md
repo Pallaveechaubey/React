@@ -25,7 +25,7 @@
 
 React is a front-end Javascript library. It is an open-source component-based library that is in charge of developing the application's view layer. Since its initial release in 2013, React has become one of the most popular javascript libraries for UI development. It is easier to reason about and debug, and its capacity to effectively alter the user interface in response to data changes.
 
-# Advantage of React
+## Advantage of React
 
 * React is easy to learn.
 * The syntax of react is much like HTML which allow developers to create templates with detailed documentation.
@@ -89,13 +89,13 @@ JSX is a combination of HTML and JavaScript. so, it is not supported by the brow
 ## Why JSX? 
 With the help of JSX, we can write HTML code with javascript. React does not employ the createElement() method; Instead, JSX elements are used to create HTML elements. As a result, JSX facilitates the writing and addition of HTML components in React. A transpiler called babel.js will convert Jsx to javascript on the browser.
 
-### Advantages of Jsx 
+## Advantages of Jsx 
 
 * Because JSX  syntax is so similar to HTML syntax, which many developers are already familiar with it is simpler to write and read.
 * It enables you to specify your whole react components using declarative syntax in a single file by using JSX elements as the component's root.
 * By using attributes which are identical html attributes, it make it simples to give data to your code clean and manageable.
 
-### Note 
+## Note 
 * JSX must have one parent element.
 
 ## Ternary operation inside Jsx elements
@@ -135,13 +135,13 @@ In HTML we use "on click in all lower case but in react we use camel case like '
 With specific form elements typically by specifying the ID of the form element.
 In react, a "label" component can be created using javascript and jsx to create and style label elements. These components can be reusable and can be used in different parts of application.
 
-### NOTE--
+## NOTE--
 We already know there are certain differences between html and jsx and one such difference that we have seen in html. In normal HTML we have for but we cannot use it in javascript since it is a reserved keyword in javascript so we use htmlFor in jsx.
 
  ## Introducing the new root API 
  A root in react refers to the top-level data structure that renders a tree. In React 18, we will have two root APIs: Legacy root API and New root API
 
-### Legacy root API
+## Legacy root API
 The legacy root API is the existing API called the reactDOM.render method. It will create a root running in legacy mode, which is similar to usage in each version 17. If we are using reactDOM.render() in your react 18 app, we will definitely see the below issue.
 
 AJSX element is converted into a regular javascript object during compilation so that it can be used to construct a genuine DOM element.
@@ -154,7 +154,7 @@ ReactDOM.render(<NavBar/>, document.getElementById('root'))
 
  The render() method of the react-dom package is considered legacy starting react-dom version 18. ** The method is replaced with createRoot() method that is exported from react-dom/client. ** The createRoot() method taked the root elements as parameters and creates a react root.
 
- ### New Root API
+ ## New Root API
 createRoot() is a new method introduced in React 18 that allows you to create a separate root for a react tree outside of the main react DOM tree. it take a single argument, which is a reference to an existing DOM element. It returns a new root object that has a render() method for rendering react components into the specified DOM element.
 
 call createRoot to create a React root for displaying the content inside the browser DOM element.
@@ -183,18 +183,18 @@ root.render(<App />);
 ```
 
 ## Explanation:
-** Old way (ReactDOM.render()):
+ Old way (ReactDOM.render()):
   - `ReactDOM.render()` is the traditional way to render a React component into a DOM node.
   - You pass the component you want to render (in this case, `<App />`) as the first argument, and the DOM node where you want to render it (in this case, `rootNode`) as the second argument.
 
-** New way (Concurrent Mode and createRoot()):
+ New way (Concurrent Mode and createRoot()):
   - With Concurrent Mode and the new createRoot API, rendering is performed asynchronously and allows for more efficient updates.
   - Instead of using `ReactDOM.render()`, you first create a root instance using `ReactDOM.createRoot()`, passing in the root DOM element.
   - Then, you call `root.render()` with the component you want to render (in this case, `<App />`).
 
 Using Concurrent Mode and `createRoot()` is the recommended approach for rendering React components in newer applications, especially when dealing with large or complex UIs, as it can provide better performance and user experience.
 
-# Setup for React Project
+## Setup for React Project
 
 ## Install node.js 
 ```
