@@ -1,11 +1,11 @@
-****# react-document
+# react-document
 
 ## Table of Content  
 [What is React?](#What-is-React)
 
 [Advantage of React](#Advantage-of-React)	
 
-[What is Tailwind CSS](#What-is-Tailwind-CSS?)
+[What is Tailwind CSS?](#What-is-Tailwind-CSS?)
 
 [Why we are integrating tailwindcss with react project?](#Why-we-are-integrating-tailwindcss-with-react-project?)
 
