@@ -5,7 +5,7 @@
 
 [Advantage of React](#Advantage-of-React)	
 
-[What is Tailwind CSS?](#What-is-Tailwind-CSS?)
+[What is Tailwind CSS](#What-is-Tailwind-CSS?)
 
 [Why we are integrating tailwindcss with react project?](#Why-we-are-integrating-tailwindcss-with-react-project?)
 
