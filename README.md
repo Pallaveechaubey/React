@@ -5,9 +5,9 @@
 
 [Advantage of React](#Advantage-of-React)	
 
-[What is Tailwind CSS?](#What-is-Tailwind-CSS?)
+[What is Tailwind CSS?](#What-is-Tailwind-CSS)
 
-[Why we are integrating tailwindcss with react project?](#Why-we-are-integrating-tailwindcss-with-react-project?)
+[Why we are integrating tailwindcss with react project?](#Why-we-are-integrating-tailwindcss-with-react-project)
 
 [What is Create React app](#What-is-Create-React-app)	  
 
@@ -15,7 +15,7 @@
 
 [Why JSX?](#why-jsx)
 
-[What are HTML attributes?](#What-are-HTML-attributes?)
+[What are HTML attributes?](#What-are-HTML-attributes)
 
 [Setup for React Project](#Setup-for-React-Project)	    
 
