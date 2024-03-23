@@ -19,8 +19,7 @@
 
 [Setup for React Project](#Setup-for-React-Project)	    
 
-[https://legacy.reactjs.org/docs/getting-started.html](URL 'React')
-
+[Reference](https://legacy.reactjs.org/docs/getting-started.html)
 
 ## What is React?
 
