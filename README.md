@@ -3,7 +3,7 @@
 ## Table of Content  
 [What is React?](#What-is-React)
 
-[ Advantage of React](#Advantage-of-React)	
+[Advantage of React](#Advantage-of-React)	
 
 [What is Tailwind CSS?](#what-is-tailwindcss)
 
