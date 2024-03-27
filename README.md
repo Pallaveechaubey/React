@@ -19,7 +19,7 @@
 
 [Setup for React Project](#Setup-for-React-Project)	    
 
-[Reference](https://legacy.reactjs.org/docs/getting-started.html)
+[Reference](#Reference)
 
 ## What is React?
 
@@ -238,3 +238,8 @@ content: ["./src/**/*.]
 @tailwind components;
 @tailwind utilities;
 ```
+
+## Reference
+https://legacy.reactjs.org/docs/getting-started.html
+https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
+https://www.w3schools.com/REACT/react_intro.asp
